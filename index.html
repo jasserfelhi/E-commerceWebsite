@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onligne Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        #search {
+            display: flex;
+            margin-top: 9px;
+            justify-content: space-around;
+        }
+        #search input{
+            border: 1px solid #c1c1c1;
+            outline: none;
+            border-radius: 4px;
+            height: 20px;
+
+        }
+       
+    </style>
+    <script>
+        function search() {
+            let search = document.getElementById("search-input").value;
+             search=search.toUpperCase()
+        if ((search=="IPHONE") || (search=="CARTE GRAPHIQUE")){
+            window.open("file:///C:/Users/felhi/Desktop/Projet-Css/sproduct.html", "_self");
+        }
+        if ((search=="CAMERA")|| (search=="IPAD") || (search=="ENTICASSE")|| (search=="CASQUE"))  {
+            window.open("file:///C:/Users/felhi/Desktop/Projet-Css/index.html#newarravals", "_self");
+        }
+        }
+        
+    </script>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="logoo.jpg" alt="" height="100px" width="100px"></a>
+        <nav>
+            <ul id="navbar">
+                <li id="search"><p>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <input type="search" id="search-input" onchange="search()">
+                </p></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html" >Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" id="bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                 <a href="#"><i id="close" class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+        <div>
+            <div id="mobile">
+                <a href="cart.html" ><i class="fa-solid fa-bag-shopping" id="shopping"> </i></a>
+                <i class="fa-solid fa-bars" id="bar"></i>
+            </div>
+        </div>
+     </section>
+
+ <section id="hero">
+    <h4>Trade-in-offer</h4>
+    <h2>super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupens & up to 70%  off !</p>
+    <button>Shop Now</button>
+ </section>
+
+ <section id="feature" class="section-p1">
+    <figure class="fe-box">
+        <img src="img/Features/f1.png" alt="">
+        <figcaption>Free Shiping</figcaption>
+    </figure>
+    <figure class="fe-box">
+        <img src="img/Features/f2.png" alt="">
+        <figcaption>Online Order</figcaption>
+    </figure>
+    <figure class="fe-box">
+        <img src="img/Features/f3.png" alt="">
+        <figcaption>Save Money</figcaption>
+    </figure>
+    <figure class="fe-box">
+        <img src="img/Features/f4.png" alt="">
+        <figcaption>Promotions</figcaption>
+    </figure>
+    <figure class="fe-box">
+        <img src="img/Features/f5.png" alt="">
+        <figcaption>Happy sell</figcaption>
+    </figure>
+    <figure class="fe-box">
+        <img src="img/Features/f6.png" alt="">
+        <figcaption>F24/7 Support</figcaption>
+    </figure>
+   
+  
+ </section>
+
+ <section id="product1" class="section-p1"  class="section-m1" >
+    <h2>Feaured Products</h2>
+    <p>Summer Collection New dseign</p>
+    <div class="pro-conatiner">
+        <figure class="pro">
+            <img src="img/Products/f1.jpg" alt="">
+            <div class="des">
+            <figcaption>Galaxy</figcaption>
+            <h5>A11</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>650 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/f2.jpg" alt="">
+            <div class="des">
+            <figcaption>Iphone</figcaption>
+            <h5  width="100%">8+</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>800 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/f3.jpg" alt="">
+            <div class="des">
+            <figcaption>Iphone</figcaption>
+            <h5  width="100%">12</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>1600 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/f4.jpg" alt="">
+            <div class="des">
+            <figcaption>Carte Graphique</figcaption>
+            <h5 width="100%">4050</h5 >
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>500 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/f5.jpg" alt="">
+            <div class="des">
+            <figcaption>Carte Graphique</figcaption>
+            <h5>RTX 3050</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>450 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/f6.jpg" alt="">
+            <div class="des">
+            <figcaption>Galaxy</figcaption>
+            <h5>A11</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>650 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        
+        <figure class="pro">
+            <img src="img/Products/f7.jpg" alt="">
+            <div class="des">
+            <figcaption>kit ordinateur</figcaption>
+            <h5>Apple</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>3500 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        
+        <figure class="pro">
+            <img src="img/Products/f8.jpg" alt="">
+            <div class="des">
+            <figcaption>micro</figcaption>
+            <h5>2023</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>120 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+    </div>
+ </section>
+
+ <section id="banner" class="section-m1">
+    <h4>Repair services</h4>
+    <h2>Up to <span>70%</span>-All t-accessoires</h2>
+    <button class="normal">Explorte more</button>
+ </section>
+
+ <section id="product1" class="section-p1"  class="section-m1" >
+    <h2>New Arrivals</h2>
+    <p>Summer Collection New dseign</p>
+    <div class="pro-conatiner" id="newarravals">
+        <figure class="pro">
+            <img src="img/Products/n1.jpg" alt="">
+            <div class="des">
+            <figcaption>Ipad</figcaption>
+            <h5>A11</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>650 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/n2.jpg" alt="">
+            <div class="des">
+            <figcaption>Camera</figcaption>
+            <h5  width="100%">8+</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>800 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/n3.jpg" alt="">
+            <div class="des">
+            <figcaption>Galaxy Ultra</figcaption>
+            <h5  width="100%">S23</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>1600 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/n4.jpg" alt="">
+            <div class="des">
+            <figcaption>Galaxy</figcaption>
+            <h5 width="100%">G1 mini</h5 >
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>500 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/n5.jpg" alt="">
+            <div class="des">
+            <figcaption>Casque</figcaption>
+            <h5>2023</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>100 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        <figure class="pro">
+            <img src="img/Products/n6.jpg" alt="">
+            <div class="des">
+            <figcaption>Enticasse</figcaption>
+            <h5>A11</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>20DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        
+        <figure class="pro">
+            <img src="img/Products/n7.jpg" alt="">
+            <div class="des">
+            <figcaption>Casque </figcaption>
+            <h5>Apple</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>500 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+        
+        <figure class="pro">
+            <img src="img/Products/n8.jpg" alt="">
+            <div class="des">
+            <figcaption> watch</figcaption>
+            <h5>Apple</h5>
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+          <h4>200 DT</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </figure>
+
+    </div>
+ </section>
+
+ <section id="sm-banner" class="section-p1"  >
+    <div class="banner-box">
+        <h4>Crazy deals</h4>
+        <h2>buy 1 get 1</h2>
+        <span>the best chargeur is on sale </span>
+        <button class="white">Learn More</button>
+
+    </div>
+    <div class="banner-box  banner-box2">
+        
+        <h2>Up comming season</h2>
+        <span>the best kit </span>
+        <button class="white"> Kits</button>
+        
+    </div>
+    
+ </section>
+
+
+<section id="email" class="section-p1 section-m1">
+    <div class="new">
+        <h4>Sign up For Newsletters</h4>
+        <p>Get E-mail updates about our shop <span>special  offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign up</button>
+    </div>
+</section>
+
+<footer  class="section-p1">
+<div class="col">
+    <img src="logoo.jpg" alt="" height="100px" width="100px" class="logo">
+    <h4>Contact</h4>
+    <p><strong>Adresse :</strong>SIDI-BOUZID MAKNESSY</p>
+    <p><strong>Phone :</strong><a href="tel:95302833" style="text-decoration: none;">+216-95302833</a></p>
+    <p><strong>Hours :</strong>10:00 - 18:00 Mon-Sat</p>
+    <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+            <a href="https://www.facebook.com/profile.php?id=100033766700516"><i class="fa-brands fa-facebook"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.instagram.com/jass_er10/?fbclid=IwAR0gG-8MHaSVVh4ykfaJSIUaUYDxF3fN02C8oI79EnXyMImSvIrjTxRM6jc_aem_ATTCVTL4AKFYu-_x-QZLmLO3jNSnTUSF3Oa8jW7gjJT0PTWu3VSe5rbWAIpHNdd-NZe6TsTYuekQrv7mfzF2j_nL"><i class="fa-brands fa-instagram"></i></a>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <h4>About</h4>
+    <a href="">About Us</a>
+    <a href="">Delevery Information</a>
+    <a href="">Privacy Policy</a>
+    <a href="">Terms & Conditions</a>
+    <a href="">Contact Us</a>
+</div>
+<div class="col">
+    <h4>My Account</h4>
+    <a href="">Sign In</a>
+    <a href="">View Cart</a>
+    <a href="">My Wishlist</a>
+    <a href="">Track My Order</a>
+    <a href="">Help</a>
+</div>
+
+<div class="col install">
+    <h4>Install App</h4>
+    <p>From App Store Or Google Play</p>
+    <div class="row">
+        <img src="img/pay/app.jpg" alt="">
+        <img src="img/pay/play.jpg" alt="">
+    </div>
+    <p>Secured Payment Gateway</p>
+    <img src="img/pay/pay.png" alt="">
+</div>
+<div class="copyright">
+    <p>@ 2024, Jasser Felhi - HTML CSS Ecomerce Template</p>
+</div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
